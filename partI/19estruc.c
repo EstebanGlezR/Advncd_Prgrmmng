@@ -5,11 +5,11 @@
 #include <string.h>
 
 struct StrFruits{
-   	char nameFruit[30];
+   	char name[30];
 	int account;
 };
 
-struct StrProvider{
+struct StrPerson{
    	char name[30];
 	char email[30];
 };
@@ -18,7 +18,7 @@ struct StrProvider{
 struct StrInventory{
 int date;
 struct StrFruits Fruit;
-struct StrProvider Provider;
+struct StrPerson Provider;
 };
 
 
@@ -28,11 +28,12 @@ int main( ) {
 struct StrInventory inventory;
 
 inventory.date = 13022019;
-strcpy(inventory.Fruit.nameFruit, "naranja");
+strcpy(inventory.Fruit.name, "naranja");
 inventory.Fruit.account = 3;
+strcpy(inventory.Provider.name, "Pedro Naranjas");
 
 
-
-   printf( "Numero de frutas en el inventario %i", inventory.Fruit.account);
+printf( "Frutas en el inventario %s\n", inventory.Fruit.name);
+printf( "Numero de frutas en el inventario %i. Proveedor: %s\n", inventory.Fruit.account, inventory.Provider.name);
    return 0;
 }
