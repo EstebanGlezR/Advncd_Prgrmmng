@@ -1,3 +1,6 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
 #include <stdio.h>
 
 int main(){
@@ -8,11 +11,6 @@ var1_ap = &var3;
 
 var3 = var1 + var2;
 
-
-
-
     printf("%p %d\n", var1_ap, var3);
-
-
-
+return 0;
 }

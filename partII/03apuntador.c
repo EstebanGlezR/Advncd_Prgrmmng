@@ -1,3 +1,6 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
 /*Uso del operador ++ en los apuntadores*/
 
  #include <stdio.h>

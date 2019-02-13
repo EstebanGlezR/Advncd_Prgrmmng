@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <string.h>
 
-
 // Creamos un tipo de dato: struct Books{Miembros} y lo etiquetamos como BOOK
 typedef struct Books{
    	char title[50], author[50], subject[100];

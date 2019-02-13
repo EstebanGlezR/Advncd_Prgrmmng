@@ -1,6 +1,6 @@
-/*
-Recoerdemos el uso de un operador de memoria
-*/
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
 
 #include <stdio.h>
 #define N 5

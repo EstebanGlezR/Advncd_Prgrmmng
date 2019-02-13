@@ -1,3 +1,7 @@
+/* ********************* TEXTO SIN ACENTOS *********************/
+// Recuerda documentar tus codigos
+
+
 #include <stdio.h>
 
 int main(){
