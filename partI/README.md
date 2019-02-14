@@ -45,7 +45,9 @@ ___
 
 - *17struct.c* Implementa otras estructuras de control para guardar información de un mismo autor.
 
-- *18struct.c* Escribe un código que implemente estructuras anidadas y estructuras de control iterativas.
+- *18struct00/01.c* Escribe un código que:
+	- implemente estructuras anidadas y estructuras de control iterativas.
+	- implemente el operador puntero (->).
 
 - *19struct.c*--*19typedef.c* **typedef** Discute los conceptos implementados en el archivo fuente.
 
